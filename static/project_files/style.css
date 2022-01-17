@@ -1,0 +1,54 @@
+/* style the breadcrumb */
+nav{
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+
+.breadcrumb{
+    background-color: #515161;
+    border-radius: 0;
+
+}
+
+a, a:hover{
+    color: #AEBD38;
+}
+
+/* style the table */
+table{
+    color: #68829E;
+    margin: 100px 10px;
+}
+thead{
+    background-color: #68829E;
+    color: #fff;
+    cursor: pointer;
+}
+tbody{
+    display: block;
+    height: 300px;
+    overflow-y: scroll ;
+}
+thead, tbody tr{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+/* style the icon */
+tbody ion-icon{
+    font-size: 24px;
+    color:#68829E;
+}
+
+
+/* style the footer */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #515161;
+}
